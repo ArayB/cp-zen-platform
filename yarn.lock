@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@coderdojo/cd-common@1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@coderdojo/cd-common/-/cd-common-1.1.8.tgz#a7013a4d8d32d871fc1702006f5531c5a5f1a64e"
+"@coderdojo/cd-common@1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@coderdojo/cd-common/-/cd-common-1.1.11.tgz#fb42fa68eff8b47d9843007db013d3f3fb4b1f95"
 
 "@newrelic/native-metrics@^2.1.0":
   version "2.1.2"
@@ -1055,16 +1055,21 @@ countryjs@^1.8.0:
     jed "^1.1.0"
     po2json "^0.4.2"
 
+cp-translations@1.0.89:
+  version "1.0.89"
+  resolved "https://registry.yarnpkg.com/cp-translations/-/cp-translations-1.0.89.tgz#5834f0f8d1d89cd81e6281449a386283e833bc5f"
+
 cp-translations@^1.0.4:
   version "1.0.81"
   resolved "https://registry.yarnpkg.com/cp-translations/-/cp-translations-1.0.81.tgz#f3bcaca60207c7aae88c375cab8bead94205957c"
 
-cp-zen-frontend@1.0.13-a6e272c:
-  version "1.0.13-a6e272c"
-  resolved "https://registry.yarnpkg.com/cp-zen-frontend/-/cp-zen-frontend-1.0.13-a6e272c.tgz#fcafa98ba8bb7414f5dd25aae9d901aafe405124"
+cp-zen-frontend@1.0.27-5c0ff34:
+  version "1.0.27-5c0ff34"
+  resolved "https://registry.yarnpkg.com/cp-zen-frontend/-/cp-zen-frontend-1.0.27-5c0ff34.tgz#2dfa4abd478bc627d6e54836790f7b640f15eb5f"
   dependencies:
-    "@coderdojo/cd-common" "1.1.8"
+    "@coderdojo/cd-common" "1.1.11"
     bootstrap "^3.3.7"
+    cp-translations "1.0.89"
     font-awesome "^4.7.0"
     handlebars "^4.0.10"
     js-cookie "^2.1.4"
